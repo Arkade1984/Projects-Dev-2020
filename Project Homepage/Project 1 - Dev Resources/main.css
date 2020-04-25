@@ -1,0 +1,36 @@
+/* myStyle.css */
+
+a {
+	padding: 5px; 
+	display: inline-block;
+	text-decoration: none; 
+	transition: all 0.3s;
+	background-size: 100% 200%; 
+	background-image: linear-gradient(to top, #333 50%, #fff 50%); 
+	color: #333;
+	}
+a:hover { 
+	background-position: 0 100%; 
+	color: #fff; 
+	}
+body {
+ background-color: #aaaaaa;
+ color: #FFFFFF;
+}
+h1 {
+ color: #eeeeee;
+ text-align: center;
+ font: italic 100% fantasy;
+}
+p {
+ background-color: #aaaaaa;
+ color: #eeeeee;
+}ff
+
+
+#cageImg {
+flaot:right;
+}
+
+
+

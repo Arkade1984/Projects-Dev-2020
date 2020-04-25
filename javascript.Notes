@@ -1,0 +1,186 @@
+Data Types;
+
+<notes>
+Everhything is a number..
+
+But we have things we want those numnbers to represent. Like letters, images, sounds & just plain numbers.
+
+The Type tells us what it means. The program specifies not only how the program should interpret the number is what the numerical value means, but also how to operate on it. 
+
+The same operation could have different behavior on different types.  
+
+
+
+//Slide Type:How to Operate on Data
+<practice>
+concatenate;
+
+
+n1      26
+n2      16
+s1      "a"
+s2      "b"
+
+
+var n3 = n1 + n2;
+var s3 = s1 + s2;
+
+
+n1 + n2;    ..    26 + 16= 42 = n3 
+
+s1 + s2;    ..    "a" + "b" = "ab" = s3
+
+
+ Javascript
+- Keeps track of it with the value
+- Called "dynamically typed"
+
+
+   
+   Loops
+   
+Type "for" Loops 
+
+Example;
+
+for ( var pixel of img.values() ) {
+
+var new G = 255 - pixel.getGreen();
+
+pixel.setGreen(newG);
+
+}
+
+
+
+    How to write repitition in JavaScript
+
+you use a look, figure above, is a (4) Loop;
+
+    Break down Syntax for.. "for" (above)
+
+
+
+
+    (Info "about" "inside" the prenthesis)
+
+..First part of 
+
+
+    ( var pixel of img.values() )
+    
+var pixel - variable decloration
+var pixel <== makes new variable to refer to current item, the loop will automatically update this info each time it repeats settimg its value to the next piece of data, in the case of this loop each piece of data will be a pixel.
+
+of <= Next is the keyword that says that  you are about to say what pieces of data to iterate over. 
+
+Then you have the expression that you want to iterate over. In this case we have.. 
+
+    img.values()
+
+the .values inside of simple image (img.) gives back all of its pixels to access each one in turn with in the loop body via the variable pixel.
+
+Finally you have the body of the loop. Inside of curly braces. The body of the loop is the set of statements that should be repeated for each piece of data.
+
+
+    Semantics;
+    
+    Execution;
+    
+        // Semantics Screenshot
+    
+    .values -returns back all pixels and characteristics of (img.).
+    
+    Body of loop;
+    
+    {
+    
+    var newG = 255 - pixel.getGreen();
+    pixel.setGreen(newG);
+    
+    }
+
+
+
+for (var pixel of img.values()) {
+    var newG = 255 - pixel.getGreen();
+    pixel.setGreen(newG);
+}
+
+
+    Conditions are made with "if" .. "else" statements;
+    
+if (x < y) {
+    z =2;
+}
+else {
+a=y+1;
+y=x-3;
+}
+
+}
+
+
+
+Making Decisions: if/else
+
+if <= if statement 
+(x <y ) <= The Condition in Parentheses)
+{ } <= the "then" clause.. set of conditions to execute "if" the statement is true. These are written inside of curly braces. After tge "if clause" is "else"..
+then the "e;se clause" the else clause is a set of statements to execute if the condition, is false. Again these are written in Curly {} braces.
+
+if {} is empty it is "omitted" and a "empty" .. "else" .. "clause" ...
+
+When the programmer does "not" want to do anything.. in the case of a "false Condition".
+
+// Making Decisions: "if/else" Slide (Open Drive).
+
+If the first statement is false, it jumps to else statement.
+
+
+
+
+If "conditional expression" {then clause, condition to set if "if" statement is true} "else" {else clause to run if "if" statement is false}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
